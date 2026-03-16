@@ -10,8 +10,38 @@
     border-top: 1px solid rgba(173, 173, 173, 0.3);
 }
 
+.nav__link {
+    position: relative;
+    
+}
+
+.nav__notification {
+    background-color: tomato;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    bottom: 16px;
+}
+
+.nav__reddot {
+    display: flex;
+    background-color: tomato;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    left:15px
+}
 
 .nav img {
-            width: 16px;
-            height: 24px;
-        }
+    width: 16px;
+    height: 24px;
+}
