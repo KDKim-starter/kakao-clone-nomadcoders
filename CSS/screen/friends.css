@@ -1,14 +1,15 @@
 #friends-display-link {
-    text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fafafa;
     padding: 10px 0px;
     font-size: 14px;
 }
 
 #friends-display-link svg {
-    height: 17px;
-    width: 17px;
+    height: 14px;
+    width: 14px;
     color: rgba(0,0,0,0.3);
 }
 
