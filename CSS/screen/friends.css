@@ -11,9 +11,23 @@
 #friends-display-link svg {
     height: 14px;
     width: 14px;
-    color: rgba(0,0,0,0.3);
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
+}
+
+.user-components__profile-photo--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+}
+
+.user-components__text--not-bold {
+    font-weight: 400;
+}
+
+.user-components__column:last-child span {
+    padding: 0px;
 }
