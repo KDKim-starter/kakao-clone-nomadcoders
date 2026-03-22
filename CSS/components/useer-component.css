@@ -21,3 +21,8 @@
     color: rgba(0,0,0,0.5);
     padding-top: 8px;
 }
+
+.user-components__profile-photo--xl {
+    width: 90px;
+    height: 90px;
+}
