@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
     <link rel="stylesheet" href="CSS/style.css" />
    
 </head>
@@ -40,12 +40,36 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span class="screen-header__search">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
                     <circle cx="28" cy="28" r="16" stroke="currentColor" stroke-width="4"/>
                     <line x1="39.5" y1="39.5" x2="54" y2="54" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </span>
+            <span class="screen-header__chat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+                    <path
+                        d="M6.5 5.5h19a3 3 0 0 1 3 3v0.2"
+                        stroke="#000"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                    />
+                    <path
+                        d="M28.5 19.3v0.2a3 3 0 0 1-3 3H17l-4.8 4.2a.8.8 0 0 1-1.3-.6V22.5H6.5a3 3 0 0 1-3-3v-11a3 3 0 0 1 3-3"
+                        stroke="#000"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                    />
+                    <path
+                        d="M28.5 11.2v5.6M25.7 14h5.6"
+                        stroke="#000"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                    />
                 </svg>
             </span>
             <span class="screen-header__music">
@@ -80,53 +104,19 @@
         </div>
     </header>
     
-    <a id="friends-display-link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-            <circle cx="16" cy="16" r="15" fill="currentColor"/>
-            <circle cx="16" cy="9.2" r="2.1" fill="white"/>
-            <path d="M13.3 13.8H18.7V24.2H21V26H11V24.2H13.3V15.6H11.8V13.8H13.3Z" fill="white"/>
-        </svg>
-        Friends' Names Display
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-            <path d="M11.5 5 22 15.5 11.5 26 8.5 23 16 15.5 8.5 8 11.5 5Z" fill="currentColor"/>
-        </svg>
-    </a>
-
     <main class="friends-screen">
         <div class="user-components">
             <div class="user-components__column">
                 <img 
-                class="user-components__profile-photo user-components__profile-photo--xl" 
+                class="user-components__profile-photo" 
                 src="https://images.freeimages.com/images/large-previews/1f3/blue-sky-1193744.jpg?fmt=avif&h=350" />
                 <div class="user-components__text">
                     <h4 class="user-components__chat-name">Kyung duk</h4>
-                    <!--<h6 class="usper-components__subtitle">text whater I want</h6> -->
+                    <h6 class="user-components__subtitle">Please check My Account Info</h6>
                 </div>
             </div>
-            <div class="user-components__column"></div>
-        </div>
-        <div class="user-screen__channel">
-            <div class="user-screen__chnnel-header">
-                <span>Channel</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-                    <path d="M5 20.5 15.5 10 26 20.5 23 23.5 15.5 16 8 23.5 5 20.5Z" fill="currentColor"/>
-                </svg>
-            </div>
-            <div class="user-components">
-                <div class="user-components__column">
-                    <img 
-                    class="user-components__profile-photo user-components__profile-photo--sm" 
-                    src="https://images.freeimages.com/images/large-previews/1f3/blue-sky-1193744.jpg?fmt=avif&h=350" />
-                    <div class="user-components__text user-components__text--not-bold">
-                        <h4 class="user-components__chat-name">Channel</h4>
-                    </div>
-                </div>
-                <div class="user-components__column">
-                    <span>2</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-                        <path d="M11.5 5 22 15.5 11.5 26 8.5 23 16 15.5 8.5 8 11.5 5Z" fill="currentColor"/>
-                    </svg>
-                </div>
+            <div class="user-components__column">
+
             </div>
         </div>
     </main>
@@ -135,22 +125,19 @@
         <ul class="nav__list">
             <li class="nav__btn"><a href="friends.html">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="9.5" r="5" fill="#000000"/>
-                <path d="M16 17c-6.7 0-12 4.1-12 9.2 0 .5.4.8.8.8h22.4c.4 0 .8-.3.8-.8C28 21.1 22.7 17 16 17Z" fill="#000000"/>
+                <circle cx="16" cy="9.5" r="5" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M4 25.8C4 20.9 9.4 17 16 17s12 3.9 12 8.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification">1</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-                <path
-                    d="M6.5 5.5h19a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H17l-4.8 4.2a.8.8 0 0 1-1.3-.6V22.5H6.5a3 3 0 0 1-3-3v-11a3 3 0 0 1 3-3Z"
-                    fill="none"
-                    stroke="#000"
-                    stroke-width="2"
-                    stroke-linejoin="round"
-                />
-            </svg>                            
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path
+                            d="M6.5 5.5h19a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H17l-4.8 4.2a.8.8 0 0 1-1.3-.6V22.5H6.5a3 3 0 0 1-3-3v-11a3 3 0 0 1 3-3Z"
+                            fill="#000"
+                        />
+                    </svg>            
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html">

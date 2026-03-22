@@ -13,7 +13,7 @@
 .nav__link {
     position: relative;
     color: #2e363e;
-    }
+}
 
 .nav__notification {
     background-color: tomato;
@@ -27,21 +27,22 @@
     align-items: center;
     font-weight: 600;
     position: absolute;
-    left: 10px;
-    bottom: 16px;
+    left: 21px;
+    bottom: 25px;
 }
 
 .nav__reddot {
     display: flex;
     background-color: tomato;
-    width: 4px;
-    height: 4px;
-    border-radius: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
     position: absolute;
-    left:15px
+    left: 30px;
+    bottom: 30px;
 }
 
-.nav img {
-    width: 16px;
-    height: 24px;
+.nav svg {
+    width: 36px;
+    height: 36px;
 }

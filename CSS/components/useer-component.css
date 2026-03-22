@@ -2,10 +2,10 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+
 }
 
-.user-components,
-.user-components__column:first-child {
+.user-components__column {
     display: flex;
     align-items: center;
 }
@@ -22,7 +22,7 @@
     font-size: 20px;
 }
 
-.usser-components__subtitle {
+.user-components__subtitle {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
     padding-top: 8px;
@@ -31,4 +31,18 @@
 .user-components__profile-photo--xl {
     width: 90px;
     height: 90px;
+}
+
+.user-components__profile-photo--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+}
+
+.user-components__text--not-bold {
+    font-weight: 400;
+}
+
+.user-components__column:last-child {
+    color: rgba(0, 0, 0, 0.3)
 }

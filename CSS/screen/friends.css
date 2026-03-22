@@ -5,7 +5,7 @@
     background-color: #fafafa;
     padding: 10px 0px;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #friends-display-link svg {
@@ -18,16 +18,16 @@
     padding: 0px var(--horizontal-space);
 }
 
-.user-components__profile-photo--sm {
-    width: 60px;
-    height: 60px;
-    border-radius: 18px;
+
+.user-screen__channel {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    padding-top: 15px;
 }
 
-.user-components__text--not-bold {
-    font-weight: 400;
-}
-
-.user-components__column:last-child span {
-    padding: 0px;
+.user-screen__chnnel-header {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5)
 }

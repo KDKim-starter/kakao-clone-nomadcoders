@@ -1,24 +1,26 @@
-.screen-header{
-    display:flex;
+.screen-header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
+    margin-bottom: 15px;
 }
 
 .screen-header__title {
     font-size: 24px;
     font-weight: 600;
 }
+
 .screen-header__icons span {
     margin-left: 15px;
 }
 
-.screen-header svg{
+.screen-header svg {
     height: 24px;
     width: 24px;
 }
 
-.friends-screen svg{
+.friends-screen svg {
     height: 24px;
     width: 24px;
 }
