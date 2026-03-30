@@ -10,6 +10,8 @@
         height: 100vh;
         background-color: beige;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
       }
 
       span {
@@ -20,24 +22,37 @@
         font-weight: 700;
       }
 
+      main {
+        display: flex;
+        position: relative;
+        height: 1030px;
+        width: 550px
+      }
       div {
         height: 500px;
         width: 250px;
         border: solid 5px white;
         margin: 0px 10px;
-      }
-
-      div:first-of-type {
+        position: absolute;
+    }
+    
+    div:first-of-type {
         background-color: tomato;
+        left: 0px
       }
       div:nth-of-type(2) {
         background-color: teal;
+        right :0px
+        
       }
       div:nth-of-type(3) {
         background-color: Burlywood;
+        bottom: 0px;
       }
       div:nth-of-type(4) {
         background-color: Thistle;
+        bottom: 0px;
+        right: 0px
       }
 
       div span {
@@ -60,21 +75,24 @@
   </head>
   <body>
     <span>The Best Colors</span>
-    <div>
-      <span>Tomato</span>
-      <span>#FF6347</span>
-    </div>
-    <div>
-      <span>Teal</span>
-      <span>#008080</span>
-    </div>
-    <div>
-      <span>Burlywood</span>
-      <span>#DEB887</span>
-    </div>
-    <div>
-      <span>Thistle</span>
-      <span>#D7BFD7</span>
-    </div>
-  </body>
+    <main>
+
+        <div>
+            <span>Tomato</span>
+            <span>#FF6347</span>
+        </div>
+        <div>
+            <span>Teal</span>
+            <span>#008080</span>
+        </div>
+        <div>
+            <span>Burlywood</span>
+            <span>#DEB887</span>
+        </div>
+        <div>
+            <span>Thistle</span>
+            <span>#D7BFD7</span>
+        </div>
+    </body>
+</main>
 </html>
