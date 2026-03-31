@@ -23,12 +23,16 @@ body {
     background-color: white;
 }
 @keyframes rotate360 {
-    from {
+    0% {
         transform: rotate(0deg);
     }
-    to {
+    70% {
         transform: rotate(180deg);
     }
+    100% {
+        transform: rotate(180deg);
+    }
+
 }
 
 .stretch {
@@ -44,21 +48,23 @@ body {
     width:  40px;
     background-color: white;
     margin-left: 20px;
-    animation: stretch 1s ease-in-out infinite;
+    animation: stretch 1s ease infinite;
 }
 
 @keyframes stretch {
     0% {
         transform: scaleY(1);
     }
-    50% {
+    35% {
         transform: scaleY(2);
+    }
+    70% {
+        transform: scaleY(1);
     }
     100% {
         transform: scaleY(1);
     }
-}
-.stretch__box:first-child{
+
 }
 .stretch__box:nth-child(2){
     animation-delay: 0.1s;
@@ -68,6 +74,7 @@ body {
 }
 .stretch__box:nth-child(4){
     animation-delay: 0.3s;
-}.stretch__box:nth-child(5){
+}
+.stretch__box:nth-child(5){
     animation-delay: 0.4s;
 }
