@@ -38,7 +38,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 .main-search input::placeholder {
     opacity: 0.3;
 }
-.fa-solid {
+.fa-magnifying-glass {
     position: absolute;
     right: 15px
 }
@@ -49,5 +49,68 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 .reco {
     margin-top: 30px;
-    
+}
+
+.reco-title {
+    display: flex;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.reco-info {
+    margin: 10px 0px;
+    display: flex; 
+
+}
+.reco-info img {
+    width: 30%;
+    height: 140px;
+}
+.reco-info__text {
+    margin-left: 5px;
+}
+.reco-info__text h3 {
+    margin: 0px;
+}
+.reco-info__text h6 {
+    margin: 5px 0px;
+    opacity: 0.4;
+}
+.fa-star--ye {
+    color:rgba(255, 206, 51, 1);
+}
+.fa-star--op {
+    opacity: 0.3;
+}
+.book-type {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.book-type span {
+    border: solid 1px rgb(242, 229, 211) ;
+    background-color: rgb(242, 229, 211);
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    width: 70px;
+    text-align: center;
+    padding: 5px
+}
+.reco-shop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+}
+.reco-shop__con {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.rreco-shop-btn {
+    display: flex;
+    width: 40xp;
+    height: 40xp;
+    background-color: rgba(255, 206, 51, 1) ;
 }
