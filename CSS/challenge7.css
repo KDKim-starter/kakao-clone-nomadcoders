@@ -1,16 +1,24 @@
 @import "reset.css";
+:root{
+    --basecolor:#f7eee6;
+}
 
 body {
-    background-color: #fffce3;
+    font-family:  "Merriweather", serif;
+}
+.container {
+    width: 1000px;
+    height: 800px;
     display: flex;
     justify-content: center;
+    background-color: #fcfbf2;
 }
 
 .group {
+    background-color: var(--basecolor);
     margin: 50px;
     border-radius: 20px;
     width: 300px;
-    background-color: white;
 }
 .top-fix {
     display: flex;
@@ -31,7 +39,50 @@ body {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .music-info__title {
-    margin: 20px 0px;
-    font-size: 15px;
-    font-weight: 600;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.music-info__type {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+.music-info__btn {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: black;
+    width: 90px;
+    border-radius: 20px;
+    margin: 0px 8px;
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.btn--white {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.btn span {
+    opacity: 0.5;
+    }
+.btn i {
+    margin-right: 5px;
+}
+.music-playlist {
+    margin: 5px 10px;
+    background-color: white;
+}
+.music-playlist__song {
+    background-color: var(--basecolor);
+}
+.music-playlist__img {
+    width: 20px;
+    height: 20px;
 }
