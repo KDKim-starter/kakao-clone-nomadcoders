@@ -191,6 +191,11 @@ body {
 }
 .icon-op {
     opacity: 0.4;
+
+}
+.icon-normal{
+    display: flex;
+    align-items: center;
 }
 .icon-big {
     display: flex;
