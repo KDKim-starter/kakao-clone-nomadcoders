@@ -24,3 +24,16 @@
     height: 24px;
     width: 24px;
 }
+
+@keyframes headercogmove {
+    from {
+        transform: none;
+    }
+    tp {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .screen-header__cog svg {
+    animation: headercogmove 1s linear infinite;
+}
