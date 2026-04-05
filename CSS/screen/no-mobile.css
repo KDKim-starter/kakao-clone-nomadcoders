@@ -1,0 +1,12 @@
+#no-moble {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top:0;
+    background-color: var(--yellow);
+    font-size: 35px;
+    z-index: 99;
+}
+

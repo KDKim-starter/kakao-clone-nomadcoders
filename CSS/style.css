@@ -12,10 +12,11 @@
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/no-mobile.css";
 
 body {
     font-family: "Merriweather", serif;
     padding : 36px 0px;
-    color: #2e363e;;
+    color: #2e363e;
 }
 

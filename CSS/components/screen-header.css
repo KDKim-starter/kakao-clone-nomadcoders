@@ -29,11 +29,11 @@
     from {
         transform: none;
     }
-    tp {
+    to {
         transform: rotateZ(360deg);
     }
 }
 
-.screen-header__icons .screen-header__cog svg {
+.screen-header__icons .screen-header__cogi:hover {
     animation: headercogmove 1s linear infinite;
 }
