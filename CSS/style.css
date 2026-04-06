@@ -12,7 +12,7 @@
 /* screen */
 @import "screen/login.css";
 @import "screen/friends.css";
-@import "screen/no-mobile.css";
+/*@import "screen/no-mobile.css";*/
 
 body {
     font-family: "Merriweather", serif;

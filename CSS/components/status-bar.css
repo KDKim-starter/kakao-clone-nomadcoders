@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    box-sizing: border-box;
 }
 
 .status-bar__column {
@@ -36,7 +37,7 @@
     margin: 0px 3px
 }
 
-.status-bar svg {
+.status-bar img {
     width: 24px;
     height: 24px;
 }
