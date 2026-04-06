@@ -10,15 +10,21 @@
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <img src="SVG/wifi.svg" alt="" />
+        <svg class="status-bar__column__wifi" aria-hidden="true">
+          <use href="SVG/icons.svg#wifi"></use>
+        </svg>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <img src="SVG/battery.svg" alt="" />
-        <img class="status-bar__column__bolt" src="SVG/bolt.svg" alt="" />
+        <svg class="status-bar__column__battery" aria-hidden="true">
+          <use href="SVG/icons.svg#battery"></use>
+        </svg>
+        <svg class="status-bar__column__bolt" aria-hidden="true">
+          <use href="SVG/icons.svg#bolt"></use>
+        </svg>
       </div>
     </div>
 
