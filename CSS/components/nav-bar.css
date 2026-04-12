@@ -27,22 +27,11 @@
     }
 }
 .nav__notification {
-    background-color: tomato;
-    display: flex;
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
-    font-size: 15px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
     position: absolute;
     left: 21px;
     bottom: 25px;
     animation: navnotificationmove 2s ease-in-out infinite;
 }
-
 .nav__reddot {
     display: flex;
     background-color: tomato;
